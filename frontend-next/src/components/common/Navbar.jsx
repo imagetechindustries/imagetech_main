@@ -503,11 +503,11 @@ const Navbar = () => {
           {/* Action Button & Phone */}
           <div className="hidden lg:flex items-center gap-3 lg:gap-4">
             <a
-              href="tel:+918448441345"
+              href="tel:+918448336036"
               className={`flex items-center gap-2 font-bold text-[13px] lg:text-[14px] transition-all hover:scale-105 px-4 py-2 rounded-full animate-pulse hover:animate-none ${isTransparent ? 'bg-orange-500 text-white shadow-lg' : 'bg-orange-500 text-white shadow-md hover:bg-orange-600'}`}
             >
               <Phone className="w-4 h-4" />
-              +91 8448441345
+              +91 8448336036
             </a>
             <button
               onClick={() => window.dispatchEvent(new Event('open-quote-modal'))}
@@ -521,11 +521,11 @@ const Navbar = () => {
           {/* Mobile Quick Actions & Menu Button */}
           <div className="lg:hidden flex items-center gap-1.5 sm:gap-2">
             <a
-              href="tel:+918448441345"
+              href="tel:+918448336036"
               className={`flex items-center gap-1 px-2 py-1.5 rounded-md font-bold text-[10px] sm:text-[11px] animate-pulse ${isTransparent ? 'bg-orange-500 text-white shadow-md' : 'bg-orange-500 text-white shadow-sm'}`}
             >
               <Phone className="w-3 h-3" />
-              +91 8448441345
+              +91 8448336036
             </a>
             <button
               onClick={() => window.dispatchEvent(new Event('open-quote-modal'))}
@@ -673,11 +673,11 @@ const Navbar = () => {
           {/* Mobile Actions */}
           <div className="flex flex-col gap-3 mt-2">
             <a
-              href="tel:+918448441345"
+              href="tel:+918448336036"
               className="bg-orange-500 text-white px-5 py-3.5 rounded font-bold text-[16px] w-full text-center flex items-center justify-center gap-2 hover:bg-orange-600 transition-colors shadow-md"
             >
               <Phone className="w-5 h-5" />
-              +91 8448441345
+              +91 8448336036
             </a>
             <button
               onClick={() => window.dispatchEvent(new Event('open-quote-modal'))}
